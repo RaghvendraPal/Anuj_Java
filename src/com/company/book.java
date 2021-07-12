@@ -27,6 +27,7 @@ public class book {
         int b=sc.nextInt();
         System.out.println(s.substring(a,b));
         */
+        /* 3. Q
         System.out.println("enter your string");
         String s = sc.nextLine();
         System.out.println("enter your number ");
@@ -64,9 +65,9 @@ public class book {
         System.out.println(min);
         System.out.println(s_array[minindex]);
 
+         */
+
     }
 }
 
-
-//Raghvendra Pal
 
