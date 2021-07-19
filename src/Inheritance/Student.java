@@ -1,9 +1,9 @@
 package Inheritance;
 
 public class Student {
-    String name = "";
-    String email = "";
-    int number = 123;
+    private String name = "";
+    private String email = "";
+//    int number = 123;
     public Student(String name, String email){
         this.name = name;
         this.email = email;
@@ -14,4 +14,11 @@ public class Student {
         System.out.println("Sanskrit");
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public String getName() {
+        return name;
+    }
 }
